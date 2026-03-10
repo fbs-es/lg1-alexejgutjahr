@@ -48,5 +48,4 @@ public class RatespielTest {
         assertNotEquals(0, u1.ColdWarmGame(4));
         assertNotEquals(1, u1.ColdWarmGame(35));
     }
-
 }

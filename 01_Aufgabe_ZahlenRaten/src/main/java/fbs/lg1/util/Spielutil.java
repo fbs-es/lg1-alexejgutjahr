@@ -104,4 +104,9 @@ public class Spielutil {
             ks1.spielStarten();
         }
     }
+
+    public int binarySearch(int lower, int upper) {
+        int guess = lower + (upper - lower) / 2;
+        return guess;
+    }
 }

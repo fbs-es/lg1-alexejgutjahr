@@ -64,4 +64,9 @@ public class RatespielTest {
         assertEquals(0, utils.inEntscheidung(3));
         assertEquals(-1, utils.inEntscheidung(25));
     }
+
+    @Test
+    void testbinarySearch() {
+        assertEquals(50, utils.binarySearch(0, 100));
+    }
 }
