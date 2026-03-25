@@ -16,5 +16,6 @@
         "mockito"
     ],
     "java.configuration.updateBuildConfiguration": "automatic",
-    "errorLens.enabled": false
+    "errorLens.enabled": false,
+    "java.dependency.packagePresentation": "hierarchical"
 }
